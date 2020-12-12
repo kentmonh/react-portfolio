@@ -1,0 +1,17 @@
+/* nav bar */
+.navbar {
+	background-color: #fff;
+}
+
+.navbar a {
+    color: #000;
+    font-size: 1.6em !important;
+}
+
+.navbar li {
+    cursor: pointer;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
