@@ -15,18 +15,18 @@ function SocialMediaItem(props) {
 
 function Hero(props) {
   return (
-    <div class="Hero">
-      <p class="display-4">Hi, I'm Minh Nguyen</p>
-      <p class="display-4">I do not just code. I solve problems.</p>
+    <div id="hero">
+      <div class="Hero">
+        <p class="display-4">Hi, I'm Minh Nguyen</p>
+        <p class="display-4">I do not just code. I solve problems.</p>
 
-      <div class="mt-4">
-        <div class="row">
-          <SocialMediaItem link="https://www.linkedin.com/in/mnguyen43/" className="fa fa-linkedin fa-2x" />
-          <SocialMediaItem link="https://github.com/kentmonh" className="fa fa-github fa-2x" />
+        <div class="mt-4">
+          <div class="row">
+            <SocialMediaItem link="https://www.linkedin.com/in/mnguyen43/" className="fa fa-linkedin fa-2x" />
+            <SocialMediaItem link="https://github.com/kentmonh" className="fa fa-github fa-2x" />
+          </div>
         </div>
-
       </div>
-
     </div>
   )
 }
