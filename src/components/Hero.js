@@ -6,7 +6,7 @@ import '../style/main/link.scss';
 function SocialMediaItem(props) {
   return (
     <div class="m-4">
-      <a href={props.link} target="_blank">
+      <a href={props.link} target="_blank" rel="noopener noreferrer">
         <i className={props.className} />
       </a>
     </div>

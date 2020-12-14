@@ -7,13 +7,14 @@ import 'font-awesome/css/font-awesome.min.css';
 
 import Nav from './components/Nav';
 import Hero from './components/Hero';
+import Experience from './components/Experience';
 import Project from './components/Project';
 
 ReactDOM.render(
   <React.StrictMode>
     <Nav />
     <Hero />
-    <Project />
+    <Experience />
   </React.StrictMode>,
   document.getElementById('root')
 );

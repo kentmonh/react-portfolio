@@ -20,6 +20,7 @@ function Nav(props) {
             <nav class="navbar fixed-top navbar-expand-sm justify-content-center">
                 <ul class="navbar-nav">
                     <Item link="hero" name="home" />
+                    <Item link="experience" name="experience" />
                     <Item link="project" name="projects" />
                     <Item link="z" name="download-resume" />
                 </ul>
