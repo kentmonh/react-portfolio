@@ -17,7 +17,7 @@ function Hero(props) {
   return (
     <div id="hero">
       <div class="Hero">
-        <p class="display-4">Hi, I'm Minh Nguyen</p>
+        <p class="display-4">Hi, I'm </p>
         <p class="display-4">I do not just code. I solve problems.</p>
 
         <div class="mt-4">
