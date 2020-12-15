@@ -22,7 +22,7 @@ function ProcessBar(props) {
 
 function About(props) {
   return (
-    <div class="About">
+    <div class="About" id="about">
       <div class="m-5">
         <h2 class="title-text-on-white">About Me</h2>
       </div>

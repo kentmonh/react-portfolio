@@ -20,6 +20,7 @@ ReactDOM.render(
     <Hero />
     <About />
     <Experience />
+    <Project />
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -5,7 +5,7 @@ import '../style/components/Hero.scss';
 function SocialMediaItem(props) {
   return (
     <div class="m-4">
-      <a href={props.link} target="_blank" rel="noopener noreferrer">
+      <a href={props.link} target="_blank" rel="noopener noreferrer" class="ic">
         <i className={props.className} />
       </a>
     </div>
