@@ -17,7 +17,7 @@ function Item(props) {
 function Nav(props) {
     return (
         <div>
-            <nav class="navbar fixed-top navbar-expand-sm justify-content-center">
+            <nav class="navbar navbar-expand-sm justify-content-center">
                 <ul class="navbar-nav">
                     <Item link="hero" name="home" />
                     <Item link="experience" name="experience" />
