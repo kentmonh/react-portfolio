@@ -6,7 +6,7 @@ function Item(props) {
     return (
         <div>
             <li class="nav-item">
-                <a class="nav-link lead">
+                <a href="/#" class="nav-link content-text-on-black">
                     <Link to={props.link} spy={true} smooth={true} offset={50} duration={500}>/{props.name}</Link>
                 </a>
             </li>

@@ -1,7 +1,5 @@
 import React from "react"
 import '../style/components/Hero.scss';
-import '../style/main/link.scss';
-import '../style/main/text.scss';
 
 
 function SocialMediaItem(props) {
@@ -18,8 +16,8 @@ function Hero(props) {
   return (
     <div id="hero">
       <div class="Hero">
-        <p class="title-text">Hi, I'm Minh Nguyen <br />
-          I do not just code. I solve problems.</p>
+        <p class="title-text-on-black">Hi, I'm <span class="yellow-text">Minh Nguyen</span> <br />
+          I do not just code. I <span class="yellow-text">solve problems.</span></p>
 
         <div class="mt-4">
           <div class="row">

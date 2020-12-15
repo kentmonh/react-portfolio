@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import 'font-awesome/css/font-awesome.min.css';
 import "typeface-lato";
 import "typeface-open-sans";
+import "typeface-poppins";
 
 import Nav from './components/Nav';
 import Hero from './components/Hero';

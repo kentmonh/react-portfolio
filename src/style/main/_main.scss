@@ -1,0 +1,27 @@
+$blackish: #202020;
+$dark-grey: #3F3F3F;
+$medium-grey: #707070;
+$egg-yellow: #FFDF6C;
+$white: #FFFFFF;
+
+.title-text-on-black {
+  font-family: 'Poppins', sans-serif;
+  color: $white;
+  font-size: 40px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.title-text-on-white {
+  font-family: 'Poppins', sans-serif;
+  color: $dark-grey;
+  font-size: 40px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.content-text-on-black {
+  color: $white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+}
