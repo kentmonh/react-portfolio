@@ -23,5 +23,16 @@ $white: #FFFFFF;
 .content-text-on-black {
   color: $white;
   font-family: 'Poppins', sans-serif;
-  font-size: 18px;
+  font-size: 20px;
+}
+
+.content-text-on-white {
+  color: $blackish;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+}
+
+br {
+  display: block;
+  margin: 10px 0;
 }

@@ -1,0 +1,13 @@
+@import "../main/main";
+
+.About {
+  min-height: 100vh;
+  background-color: $egg-yellow;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bg-black {
+  background-color: $blackish !important;
+}
