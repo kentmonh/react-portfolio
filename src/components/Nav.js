@@ -23,7 +23,9 @@ function Nav(props) {
                     <Item link="about" name="about" />
                     <Item link="experience" name="experience" />
                     <Item link="project" name="projects" />
-                    <Item link="z" name="download-resume" />
+                    <a href="resume/Minh Nguyen - Resume.pdf" download="Minh Nguyen - Resume" class="nav-link content-text-on-black">
+                        /download-resume
+                    </a>
                 </ul>
             </nav>
         </div>

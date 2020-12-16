@@ -8,3 +8,13 @@
     align-items: center;
     justify-content: center;
 }
+
+.btn-outline-warning {
+    color: $egg-yellow !important;
+    border: 1px solid $egg-yellow !important;
+}
+
+.btn-outline-warning:hover {
+    background-color: $egg-yellow !important;;
+    color: $blackish !important;
+}
