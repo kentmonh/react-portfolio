@@ -23,7 +23,7 @@ function Nav(props) {
                     <Item link="about" name="about" />
                     <Item link="experience" name="experience" />
                     <Item link="project" name="projects" />
-                    <a href="resume/Minh Nguyen - Resume.pdf" download="Minh Nguyen - Resume" class="nav-link content-text-on-black">
+                    <a href="resume/Minh Nguyen - Resume.pdf" download="Minh Nguyen - Resume.pdf" class="nav-link content-text-on-black">
                         /download-resume
                     </a>
                 </ul>
