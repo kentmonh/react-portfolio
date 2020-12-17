@@ -5,8 +5,6 @@ import reportWebVitals from './reportWebVitals';
 
 import 'bootstrap/dist/css/bootstrap.css';
 import 'font-awesome/css/font-awesome.min.css';
-import "typeface-lato";
-import "typeface-open-sans";
 import "typeface-poppins";
 
 import Nav from './components/Nav';
