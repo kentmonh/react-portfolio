@@ -17,7 +17,7 @@ function Hero(props) {
     <div id="hero">
       <div class="Hero">
         <p class="title-text-on-black">Hi, I'm <span class="yellow-text">Minh Nguyen</span> <br />
-          <span class="typewriter">I do not just code. I <span class="yellow-text">solve problems.</span></span></p>
+          I do not just code. I <span class="yellow-text">solve problems.</span></p>
 
         <div class="mt-4">
           <div class="row">
