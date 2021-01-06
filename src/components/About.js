@@ -1,6 +1,6 @@
 import React from "react"
 import '../style/components/About.scss';
-import portrait from '../images/portrait.JPG';
+import portrait from '../images/portrait-2.jpg';
 
 import { ProgressBar } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -9,10 +9,10 @@ function ProcessBar(props) {
   return (
     <div>
       <div class="row mb-3 mb-md-0">
-        <div class="col-md-2">
+        <div class="col-md-3">
           <p class="content-text-on-white">{props.name}</p>
         </div>
-        <div class="col-md-10 pt-2">
+        <div class="col-md-9 pt-2">
           <ProgressBar animated now={props.percentage} variant={"black"} />
         </div>
       </div>
@@ -28,11 +28,11 @@ function About(props) {
       </div>
 
       <div class="row m-5">
-        <div class="col-md-3 p-5 p-md-3">
+        <div class="col-md-4 p-5 p-md-3">
           <img src={portrait} class="img-fluid" alt="Portrait" />
         </div>
 
-        <div class="col-md-8 offset-md-1">
+        <div class="col-md-7 offset-md-1">
           <p class="content-text-on-white">
             I am a developer from Winnipeg, Canada, a recent BIT Program Red River College graduate. <br />
             I have serious passion for solving problems and bringing products to life. I spent past 3+ years learning and doing accross different technology. <br />
